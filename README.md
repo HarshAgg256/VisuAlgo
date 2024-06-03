@@ -7,7 +7,7 @@ A web-based Visualizer for implementing and realizing:
 1) Jarvis March and Kirk-Patrick Seidel Algorithms which constructs a Convex Hull given a set of two dimensional Points.
 2) RNA folding algorithm which predicts the secondary structure of a given RNA sequence that dictates its physical and chemical properties.
 
-**Kirk-Patrick Seidel Algorithm:**
+*Kirk-Patrick Seidel Algorithm:*
 
 The Kirkpatrick-Seidel algorithm, also known as the "Ultimate Planar Convex Hull Algorithm," is an efficient method for finding the convex hull of a set of points in the plane. The convex hull is the smallest convex polygon that can enclose a set of points, analogous to the shape formed by a tightened rubber band around the points. The Kirkpatrick-Seidel algorithm operates in \(O(n \log h)\) time, where \(n\) is the number of input points and \(h\) is the number of points on the convex hull. It uses a divide-and-conquer strategy to recursively split the problem into smaller subproblems, solve each subproblem, and then merge the results to form the final convex hull. This algorithm is notable for its optimal performance and sophisticated use of geometric properties to achieve high efficiency.
 
