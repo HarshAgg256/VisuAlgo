@@ -1,7 +1,7 @@
 # VisuAlgo
 A web-based visualizer for Algorithms
 
-### Overview
+## Overview
 
 A web-based Visualizer for implementing and realizing:
 1) Jarvis March and Kirk-Patrick Seidel Algorithms which constructs a Convex Hull given a set of two dimensional Points.
