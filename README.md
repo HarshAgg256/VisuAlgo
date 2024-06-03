@@ -7,7 +7,7 @@ A web-based Visualizer for implementing and realizing:
 1) Jarvis March and Kirk-Patrick Seidel Algorithms which constructs a Convex Hull given a set of two dimensional Points.
 2) RNA folding algorithm which predicts the secondary structure of a given RNA sequence that dictates its physical and chemical properties.
 
-***Kirk-Patrick Seidel Algorithm:***
+**Kirk-Patrick Seidel Algorithm:**
 
 The Kirkpatrick-Seidel algorithm, also known as the "Ultimate Planar Convex Hull Algorithm," is an efficient method for finding the convex hull of a set of points in the plane. The convex hull is the smallest convex polygon that can enclose a set of points, analogous to the shape formed by a tightened rubber band around the points. The Kirkpatrick-Seidel algorithm operates in \(O(n \log h)\) time, where \(n\) is the number of input points and \(h\) is the number of points on the convex hull. It uses a divide-and-conquer strategy to recursively split the problem into smaller subproblems, solve each subproblem, and then merge the results to form the final convex hull. This algorithm is notable for its optimal performance and sophisticated use of geometric properties to achieve high efficiency.
 
@@ -35,11 +35,11 @@ The Kirkpatrick-Seidel algorithm, also known as the "Ultimate Planar Convex Hull
 
 12) Merge: Merge the upper and lower hulls to form the complete convex hull of the set of points.
 
-***Jarvis March Algorithm:***
+**Jarvis March Algorithm:**
 
 The Jarvis March algorithm, also known as the Gift Wrapping algorithm, is a straightforward method for finding the convex hull of a set of points in the plane. It operates by "wrapping" around the set of points to form the convex hull. Starting from the leftmost point, the algorithm selects the point that is the most counterclockwise relative to the current point, iteratively adding these points to the convex hull until it returns to the starting point. This process effectively "wraps" the points to form the smallest convex polygon enclosing all the points. The Jarvis March algorithm has a time complexity of \(O(nh)\), where \(n\) is the number of input points and \(h\) is the number of points on the convex hull. While simple to implement, it is not as efficient as other algorithms like Graham's scan or the Kirkpatrick-Seidel algorithm for larger datasets.
 
-***RNA Folding:***
+**RNA Folding:**
 
 An RNA folding algorithm is a computational method used to predict the secondary structure of an RNA molecule based on its nucleotide sequence. The primary goal is to determine the most likely way the RNA strand will fold back on itself to form stable base pairs (e.g., A-U and G-C pairs), which are crucial for its function.
 The computational approach to predicting RNA secondary structure involves creating a dynamic programming algorithm to determine the most stable configuration under given constraints. The key to this algorithm is defining the optimal structure (OPT) for a given RNA segment. By breaking down the problem into smaller sub-problems, we can efficiently calculate the maximum number of stable base pairs for each RNA segment.
