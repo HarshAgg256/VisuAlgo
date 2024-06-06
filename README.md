@@ -67,11 +67,11 @@ By systematically expanding from the simplest subproblems to more complex ones, 
    ```
 
 2. **Algorithm - 1:**
-   - Navigate to the `VisuAlgo` directory.
+   - Navigate to the `Kirkpatrick-Seidel and Jarvis March` directory.
    - Click on the `main.html` to view the visualizer for Kirk Patrick and Jarvis March Algorithm on a web browser.
 
 3. **Algorithm - 2:**
-   - Navigate to the `VisuAlgo` directory.
+   - Navigate to the `RNA Folding` directory.
    - Click on the `main.html` to view the visualizer for RNA Folding Algorithm on a web browser.
 
 
